@@ -4,10 +4,19 @@ body { margin: 0; padding: 24px 16px; background: var(--bg); color: var(--fg); f
 main { max-width: 640px; margin: 0 auto; }
 nav { display: flex; justify-content: space-between; align-items: center; margin: 0 0 24px; font-size: 14px; }
 nav a { color: var(--accent); text-decoration: none; }
-nav { align-items: flex-start; }
-nav .brand { display: block; line-height: 0; }
-nav .brand img { display: block; height: 120px; width: auto; }
-@media (min-width: 600px) { nav .brand img { height: 150px; } }
+.hero { display: grid; grid-template-columns: 1fr auto; column-gap: 32px; align-items: start; }
+.hero .brand { grid-column: 1; grid-row: 1; line-height: 0; }
+.hero .brand img { display: block; height: 120px; width: auto; }
+.hero .lang { grid-column: 2; grid-row: 1; font-size: 14px; text-decoration: none; }
+.hero .intro { grid-column: 1 / -1; grid-row: 2; margin-top: 24px; }
+.hero .intro p:last-child { margin-bottom: 0; }
+@media (min-width: 760px) {
+  main { max-width: 880px; }
+  .hero { grid-template-columns: auto 1fr auto; }
+  .hero .brand img { height: 150px; }
+  .hero .intro { grid-column: 2; grid-row: 1; margin-top: 4px; }
+  .hero .lang { grid-column: 3; }
+}
 .card b img { width: 28px; height: 28px; vertical-align: -7px; margin-right: 8px; }
 .appicon { display: block; border-radius: 14px; margin: 0 0 12px; }
 h1 { font-size: 26px; margin: 0 0 8px; line-height: 1.25; }
