@@ -4,7 +4,11 @@ body { margin: 0; padding: 24px 16px; background: var(--bg); color: var(--fg); f
 main { max-width: 640px; margin: 0 auto; }
 nav { display: flex; justify-content: space-between; align-items: center; margin: 0 0 24px; font-size: 14px; }
 nav a { color: var(--accent); text-decoration: none; }
-nav .brand { color: var(--fg); font-weight: 600; font-size: 16px; }
+nav .brand { color: var(--fg); font-weight: 600; font-size: 18px; display: flex; align-items: center; gap: 8px; }
+nav .brand img { display: block; }
+.ai { color: #ff8a00; }
+.card b img { width: 28px; height: 28px; vertical-align: -7px; margin-right: 8px; }
+.appicon { display: block; border-radius: 14px; margin: 0 0 12px; }
 h1 { font-size: 26px; margin: 0 0 8px; line-height: 1.25; }
 h2 { font-size: 18px; margin: 32px 0 12px; }
 p { color: var(--muted); margin: 0 0 16px; }
