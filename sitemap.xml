@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://aidevance.github.io/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://aidevance.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidevance.github.io/en/"/>
+    <lastmod>2026-11-09</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://aidevance.github.io/en/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://aidevance.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidevance.github.io/en/"/>
+    <lastmod>2026-11-09</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://aidevance.github.io/messenger/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://aidevance.github.io/messenger/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidevance.github.io/en/messenger/"/>
+    <lastmod>2026-11-09</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://aidevance.github.io/en/messenger/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://aidevance.github.io/messenger/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidevance.github.io/en/messenger/"/>
+    <lastmod>2026-11-09</lastmod>
+    <priority>0.9</priority>
+  </url>
+</urlset>
