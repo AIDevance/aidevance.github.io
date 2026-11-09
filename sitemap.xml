@@ -28,4 +28,18 @@
     <lastmod>2026-11-09</lastmod>
     <priority>0.9</priority>
   </url>
+  <url>
+    <loc>https://aidevance.github.io/file-manager/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://aidevance.github.io/file-manager/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidevance.github.io/en/file-manager/"/>
+    <lastmod>2026-11-09</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://aidevance.github.io/en/file-manager/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://aidevance.github.io/file-manager/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidevance.github.io/en/file-manager/"/>
+    <lastmod>2026-11-09</lastmod>
+    <priority>0.9</priority>
+  </url>
 </urlset>
