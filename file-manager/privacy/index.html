@@ -36,6 +36,9 @@
   <h2>Files on the phone</h2>
   <p>The app asks for the Android permission “All files access” so that it can show and manage the files on the phone and memory card, like any file manager. Files are read and changed only when you act on them (open, copy, move, rename, delete, share). Nothing is sent anywhere unless you copy or move a file to Google Drive or share it with another app you choose.</p>
 
+  <h2>Private Folder</h2>
+  <p>Private Folder files are kept only on the phone, in the folder “AIDevance Private”, encrypted together with their names. The PIN, the wipe PIN, the recovery key and the encryption keys are never sent anywhere: the developer does not have them and cannot open the folder. Fingerprint unlock works through the phone's secure key store; the app never receives the fingerprint itself. Decrypted copies of files opened for viewing are kept in the app's internal folder and erased when Private Folder closes.</p>
+
   <h2>Google Drive and Google user data</h2>
   <ul class="list">
     <li><b>What is accessed.</b> When you press “Connect Google Drive” and allow access, the app receives access to the Google Drive of that account (scope <code>https://www.googleapis.com/auth/drive</code>): the names, sizes, dates and folders of your Drive files, their content when you open, copy, move or share them, and the account's used and total storage space.</li>
