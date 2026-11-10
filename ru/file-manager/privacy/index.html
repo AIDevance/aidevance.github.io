@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Политика конфиденциальности — AIDevance File Manager</title>
+<meta name="description" content="Политика конфиденциальности AIDevance File Manager для Android: к каким данным приложение обращается, включая Google Drive, зачем, и что никогда не собирается.">
+<link rel="canonical" href="https://aidevance.github.io/ru/file-manager/privacy/">
+<link rel="alternate" hreflang="ru" href="https://aidevance.github.io/ru/file-manager/privacy/">
+<link rel="alternate" hreflang="en" href="https://aidevance.github.io/file-manager/privacy/">
+<link rel="alternate" hreflang="x-default" href="https://aidevance.github.io/file-manager/privacy/">
+<meta name="robots" content="index, follow">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="/img/aidevance-mark.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="stylesheet" href="/style.css?v=3">
+</head>
+<body>
+<main>
+  <header class="hero">
+    <span class="brand"><img class="appicon" src="/img/fm-icon-big.png" alt="AIDevance File Manager" width="150" height="150"></span>
+    <a class="lang" href="/file-manager/privacy/" hreflang="en" lang="en">English</a>
+    <div class="intro">
+    <a class="home" href="/ru/file-manager/">AIDevance File Manager</a>
+    <h1>Политика конфиденциальности</h1>
+    <p>Действует с 10 ноября 2026 г. Относится к приложению для Android AIDevance File Manager (пакет <code>com.aidevance.filemanager</code>), разработчик — AIDevance.</p>
+    </div>
+  </header>
+
+  <h2>Коротко</h2>
+  <ul class="list">
+    <li>У приложения <b>нет своих серверов</b>. Оно не собирает, не хранит, не продаёт и не передаёт личные данные; в нём нет аналитики, рекламы и слежения.</li>
+    <li>Ваши файлы идут только <b>между телефоном и вашим собственным Google Drive</b>, напрямую, по шифрованному соединению (HTTPS).</li>
+  </ul>
+
+  <h2>Файлы на телефоне</h2>
+  <p>Приложение просит разрешение Android «Доступ ко всем файлам», чтобы показывать файлы памяти телефона и карты и работать с ними, как любой файловый менеджер. Файлы читаются и меняются только по вашему действию (открыть, копировать, перенести, переименовать, удалить, поделиться). Никуда ничего не отправляется, пока вы сами не скопируете или не перенесёте файл в Google Drive или не отправите его выбранной вами программе.</p>
+
+  <h2>Google Drive и данные пользователя Google</h2>
+  <ul class="list">
+    <li><b>К чему доступ.</b> Когда вы нажимаете «Подключить Google Drive» и разрешаете доступ, приложение получает доступ к Google Drive этого аккаунта (область <code>https://www.googleapis.com/auth/drive</code>): имена, размеры, даты и папки файлов Drive, их содержимое — когда вы их открываете, копируете, переносите или отправляете, — и сколько места занято и сколько всего.</li>
+    <li><b>Зачем.</b> Только чтобы показать ваш Drive в дереве папок и выполнить выбранные вами действия: показать папки, открыть, копировать и переносить файлы между Drive и телефоном, переименовать, создать папку, удалить в корзину Drive и восстановить, удалить навсегда, искать по имени, показать недавние файлы, сохранить обратно файл, изменённый в другой программе.</li>
+    <li><b>Куда идут данные.</b> Напрямую между телефоном и серверами Google. Копии файлов, которые вы открываете или отправляете, временно лежат в закрытом кэше приложения на телефоне. Ничего не отправляется AIDevance или кому-либо ещё.</li>
+    <li><b>Вход.</b> Приложение никогда не видит пароль Google. Доступ выдаёт Google через аккаунт, уже добавленный на телефон; ключ доступа хранит Android на телефоне.</li>
+    <li><b>Отключение.</b> Долгое нажатие на аккаунт в дереве → «Отключить Google Drive»: приложение убирает аккаунт и просит Google отозвать доступ. Отозвать можно и в любой момент на <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Файлы в Drive не трогаются.</li>
+    <li><b>Не передаётся, не читается людьми, не обучает ИИ.</b> Данные пользователя Google не передаются третьим лицам, не используются для рекламы, не читаются людьми и не используются для разработки, улучшения или обучения моделей ИИ и машинного обучения.</li>
+  </ul>
+  <p><b>Использование и передача AIDevance File Manager в любое другое приложение информации, полученной от API Google, соответствует <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, включая требования Limited Use.</b></p>
+
+  <h2>Файлы из других облаков</h2>
+  <p>«Взять файлы из другого облака» открывает окно выбора файлов Android; приложение получает только выбранные вами там файлы.</p>
+
+  <h2>Обновления</h2>
+  <p>Чтобы проверить новую версию, приложение скачивает маленький файл (<code>latest.json</code>) и, если вы согласитесь, новый файл приложения с GitHub (<code>github.com/AIDevance</code>). Личные данные с этими запросами не отправляются.</p>
+
+  <h2>Хранение и удаление</h2>
+  <p>Приложение хранит на телефоне только свои настройки (например, какие аккаунты Google подключены) и временный кэш. Удаление приложения удаляет их. Отключение аккаунта убирает его из приложения.</p>
+
+  <h2>Дети</h2>
+  <p>Приложение не предназначено для детей младше 13 лет.</p>
+
+  <h2>Изменения</h2>
+  <p>Изменения политики публикуются на этой странице с новой датой.</p>
+
+  <h2>Связь</h2>
+  <p>AIDevance — <a href="mailto:shaparenkouae@gmail.com">shaparenkouae@gmail.com</a> · <a href="https://aidevance.github.io/ru/">aidevance.github.io</a></p>
+
+  <footer><a href="/ru/">AIDevance</a> · <a href="/ru/file-manager/">AIDevance File Manager</a> · <a href="https://github.com/AIDevance">GitHub</a></footer>
+</main>
+</body>
+</html>
